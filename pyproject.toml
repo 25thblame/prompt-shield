@@ -43,10 +43,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/MosaicPlatformsLLC/prompt-shield"
-Documentation = "https://github.com/MosaicPlatformsLLC/prompt-shield#readme"
-Repository = "https://github.com/MosaicPlatformsLLC/prompt-shield"
-Issues = "https://github.com/MosaicPlatformsLLC/prompt-shield/issues"
+Homepage = "https://github.com/25thblame/prompt-shield"
+Documentation = "https://github.com/25thblame/prompt-shield#readme"
+Repository = "https://github.com/25thblame/prompt-shield"
+Issues = "https://github.com/25thblame/prompt-shield/issues"
 
 [tool.setuptools.packages.find]
 include = ["prompt_shield*"]
