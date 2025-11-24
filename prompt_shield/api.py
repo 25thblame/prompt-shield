@@ -27,9 +27,12 @@ class Settings(BaseSettings):
     api_key: Optional[str] = None  # Optional API key for this service
     db_path: str = "attacks.db"
     cache_ttl: int = 3600
+    host: str = "0.0.0.0"
+    port: int = 8000
     
     class Config:
         env_file = ".env"
+        extra = "ignore"  # Ignore any extra env vars
 
 
 # Global instances
